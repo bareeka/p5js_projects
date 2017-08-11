@@ -1,12 +1,11 @@
 function setup() {
-    createCanvas(400 , 400);
-    print("setup function");
+    createCanvas(800 , 800);
 
 }
 
 function draw() {
     background(0,22,53);
-    stroke(200);
-    fill(20,50,200);
-    ellipse(200,200,mouseY,mouseX);
+    stroke(0);
+    fill(200,50,200);
+    ellipse(400,400,mouseY,mouseX);
 }
