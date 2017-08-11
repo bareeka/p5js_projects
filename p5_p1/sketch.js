@@ -7,5 +7,5 @@ function draw() {
     background(0,22,53);
     stroke(0);
     fill(200,50,200);
-    ellipse(400,400,mouseY,mouseX);
+    ellipse(400,400,accelerationZ,mouseX);
 }
